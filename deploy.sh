@@ -25,7 +25,7 @@ if [ ! -e resources/last_zip_md5 -o "$zip_md5" != "`cat resources/last_zip_md5`"
         cd $deploy_dir
         while read app_id; do
             echo "$app_id" | python uploader.zip
-        done < resources/app_list
+        done < $cwd/resources/app_list
         cd $cwd
     fi
     rm -rf unzipped
