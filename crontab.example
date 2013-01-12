@@ -1,0 +1,1 @@
+0 0 * * * cd $HOME/goagent-deploy && mkdir -p logs && ./deploy.sh >logs/$(date +\%F).log 2>&1
