@@ -1,1 +1,4 @@
-an automatic deploy tool for GoAgent server
+goagent-deploy
+==============
+
+Automatic deployment tool for GoAgent server
